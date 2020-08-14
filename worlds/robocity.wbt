@@ -1,0 +1,85 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.0998135749326382 -0.9697350186262418 -0.22282559078599773 2.3491760261298675
+  position -83.22358040646732 70.61709449785202 -91.31856518907188
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF GROUND Solid {
+  translation 0 -0.1 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.7 0.6 0.5
+        metalness 0
+      }
+      geometry Plane {
+        size 500 500
+      }
+    }
+  ]
+}
+DEF ROAD_NETWORK Group {
+  children [
+    RoadIntersection {
+      translation 0 0 -8
+      rotation 0 1 0 0.7854
+      id "I0"
+      connectedRoadIDs [
+        "R1"
+        "R0"
+      ]
+    }
+    StraightRoadSegment {
+      name "road_0"
+      id "R0"
+      startJunction "I0"
+      length 36
+    }
+    StraightRoadSegment {
+      translation 8 0 -8
+      rotation 0 1 0 1.5708
+      name "road_1"
+      id "R1"
+      startJunction "I0"
+      length 36
+    }
+  ]
+}
+DEF BUILDINGS Group {
+  children [
+    CyberboticsTower {
+      translation 22.2 0 16.8
+    }
+  ]
+}
+DEF OBJECTS Group {
+  children [
+    StoneFountain {
+      translation 21.2757 0 1.20971
+      rotation 0 1 0 1.0472
+    }
+  ]
+}
+DEF ORNAMENTS Group {
+  children [
+    Solid {
+      translation 23.51 0.05 15.74
+      children [
+        DEF GRASS Shape {
+          appearance PBRAppearance {
+            baseColor 0.305882 0.603922 0.0235294
+          }
+          geometry Plane {
+            size 40 40
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+  ]
+}
