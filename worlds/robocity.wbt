@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.0998135749326382 -0.9697350186262418 -0.22282559078599773 2.3491760261298675
-  position -83.22358040646732 70.61709449785202 -91.31856518907188
+  orientation -0.10339889752171737 -0.9250313044339439 -0.3655485655949555 2.64638396018218
+  position -79.80348853256275 99.85076547114822 -107.241962219823
 }
 TexturedBackground {
 }
@@ -39,6 +39,14 @@ DEF ROAD_NETWORK Group {
       id "R0"
       startJunction "I0"
       length 36
+    }
+    StraightRoadSegment {
+      translation 0 0 -52
+      name "road_0(1)"
+      id "R0"
+      startJunction "I0"
+      length 36
+      locked FALSE
     }
     StraightRoadSegment {
       translation 8 0 -8
