@@ -1,0 +1,10 @@
+-Add skip bin to front of building
+-Add three tower floor area
+-added 2 more straight section to match buuilding widsth moved roundabout down
+-added three tower block
+-changed to doublt lines
+-Added a roundabout section
+-Add 2 straight road sections
+-Cleaned up project files and reverted to initial state
+-Added new road segment
+-Initial project creation
