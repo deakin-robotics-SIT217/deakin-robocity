@@ -3,7 +3,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation -0.5285406870194779 -0.6889503942702861 -0.49597590304348005 1.8872114521160968
-  position -67.58711879068586 117.47513842027163 -7.6286511783201245
+  position -54.7823190868411 78.35179227958986 -8.096887589149558
 }
 TexturedBackground {
 }
@@ -33,10 +33,20 @@ DEF ROAD_NETWORK Group {
       translation -28 0 -8
       rotation 0 1 0 1.5707996938995747
       name "road(1)"
+      lines [
+        RoadLine {
+          type "double"
+        }
+      ]
     }
     StraightRoadSegment {
       translation -18 0 -8
       rotation 0 1 0 1.5707996938995747
+      lines [
+        RoadLine {
+          type "double"
+        }
+      ]
     }
     RoadIntersection {
       translation 0 0 -8
