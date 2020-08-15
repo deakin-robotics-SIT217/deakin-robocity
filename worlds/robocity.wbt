@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.1514362519615809 -0.9081050902873044 -0.39040005966458996 2.4797870317225725
-  position -88.5235867400672 105.34462184726858 -89.79576946657743
+  orientation -0.5285406870194779 -0.6889503942702861 -0.49597590304348005 1.8872114521160968
+  position -67.58711879068586 117.47513842027163 -7.6286511783201245
 }
 TexturedBackground {
 }
@@ -25,6 +25,19 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
+    Roundabout {
+      translation -41 0 -8
+      rotation 0 1 0 0.7853996938995746
+    }
+    StraightRoadSegment {
+      translation -28 0 -8
+      rotation 0 1 0 1.5707996938995747
+      name "road(1)"
+    }
+    StraightRoadSegment {
+      translation -18 0 -8
+      rotation 0 1 0 1.5707996938995747
+    }
     RoadIntersection {
       translation 0 0 -8
       rotation 0 1 0 0.7854
