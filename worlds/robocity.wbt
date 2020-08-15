@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.02257317127953322 -0.9873436679665495 -0.15698067799810664 3.462571411344222
-  position 39.06250296242072 57.237757305190236 -131.687187433502
+  orientation 0.009166648955166737 -0.9833735249254266 -0.18136284906968653 3.2745301425419977
+  position 0.7337246142400318 70.1406161553783 -144.41645368152365
 }
 TexturedBackground {
 }
@@ -67,6 +67,10 @@ DEF BUILDINGS Group {
     }
     Hotel {
       translation -11 0 3
+    }
+    Museum {
+      translation -35 0 8
+      rotation 0 1 0 -1.5707996938995747
     }
   ]
 }
