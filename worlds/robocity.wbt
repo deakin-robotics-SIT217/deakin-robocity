@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.009166648955166737 -0.9833735249254266 -0.18136284906968653 3.2745301425419977
-  position 0.7337246142400318 70.1406161553783 -144.41645368152365
+  orientation -0.010488475012237163 -0.9973642615633477 -0.07179499737527716 2.936627292864452
+  position -34.842746479750225 21.626554569723414 -67.88650996770463
 }
 TexturedBackground {
 }
@@ -76,6 +76,10 @@ DEF BUILDINGS Group {
 }
 DEF OBJECTS Group {
   children [
+    BusStop {
+      translation -23 0 -2
+      rotation 0 1 0 3.141592653589793
+    }
     StoneFountain {
       translation 21.2757 0 1.20971
       rotation 0 1 0 1.0472
