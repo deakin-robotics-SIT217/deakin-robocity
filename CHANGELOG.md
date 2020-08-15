@@ -1,0 +1,8 @@
+- Added new intersection
+- Added new street furniture (museum bus stop)
+- Added a new building (museum)
+- Added a new building (hotel)
+- Added a new road
+- Cleaned up project files and reverted to initial state
+- Added new road segment
+- Initial project creation
