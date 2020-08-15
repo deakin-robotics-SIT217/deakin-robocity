@@ -3,15 +3,15 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.010488475012237163 -0.9973642615633477 -0.07179499737527716 2.936627292864452
-  position -34.842746479750225 21.626554569723414 -67.88650996770463
+  orientation -0.009208796340537057 -0.982042767742003 -0.18843354371126383 3.0779806809219394
+  position -63.79308051184034 52.50633158905149 -119.8607104606307
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 DEF GROUND Solid {
-  translation 0 -0.1 0
+  translation -0.630756 -0.1 -1.35517
   children [
     Shape {
       appearance PBRAppearance {
@@ -57,6 +57,15 @@ DEF ROAD_NETWORK Group {
       id "R2"
       startJunction "I0"
       length 50
+    }
+    RoadIntersection {
+      translation -66.5 0 -8
+      rotation 0 1 0 -0.7854003061004253
+      name "road intersection2"
+      id "I1"
+      connectedRoadIDs [
+        "R2"
+      ]
     }
   ]
 }
