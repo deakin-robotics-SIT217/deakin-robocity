@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.5285406870194779 -0.6889503942702861 -0.49597590304348005 1.8872114521160968
-  position -54.7823190868411 78.35179227958986 -8.096887589149558
+  orientation -0.048290575728973696 -0.896394712760619 -0.4406183600697678 2.959548905627098
+  position -71.22638761036903 101.18311306588487 -98.49428081144256
 }
 TexturedBackground {
 }
@@ -26,7 +26,7 @@ DEF GROUND Solid {
 DEF ROAD_NETWORK Group {
   children [
     Roundabout {
-      translation -41 0 -8
+      translation -67 0 -8
       rotation 0 1 0 0.7853996938995746
     }
     StraightRoadSegment {
@@ -75,6 +75,10 @@ DEF ROAD_NETWORK Group {
 }
 DEF BUILDINGS Group {
   children [
+    TheThreeTowers {
+      translation -31.87 0 4.16
+      rotation 0 1 0 3.141592653589793
+    }
     CyberboticsTower {
       translation 22.2 0 16.8
     }
