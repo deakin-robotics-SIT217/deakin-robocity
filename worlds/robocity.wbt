@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.09512076868305229 -0.9777787085590123 -0.18681765562659017 4.098317665332573
-  position 53.88822505909435 29.336686306838978 -41.98818107145797
+  orientation 0.02257317127953322 -0.9873436679665495 -0.15698067799810664 3.462571411344222
+  position 39.06250296242072 57.237757305190236 -131.687187433502
 }
 TexturedBackground {
 }
@@ -64,6 +64,9 @@ DEF BUILDINGS Group {
   children [
     CyberboticsTower {
       translation 22.2 0 16.8
+    }
+    Hotel {
+      translation -11 0 3
     }
   ]
 }
