@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.06152956820004006 -0.9799090481953308 -0.1897165504167658 2.558110567436905
-  position -81.02656657083078 69.308988304258 -92.70932102875548
+  orientation -0.0092153656788781 -0.9351079381366503 -0.354243166580849 3.1101389141259874
+  position -28.053311210683674 75.98705576488952 -75.28862411464361
 }
 TexturedBackground {
 }
@@ -116,6 +116,9 @@ DEF BUILDINGS Group {
 }
 DEF OBJECTS Group {
   children [
+    TrashContainer {
+      translation -24.76 0 0
+    }
     StoneFountain {
       translation 21.2757 0 1.20971
       rotation 0 1 0 1.0472
