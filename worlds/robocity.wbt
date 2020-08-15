@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.048290575728973696 -0.896394712760619 -0.4406183600697678 2.959548905627098
-  position -71.22638761036903 101.18311306588487 -98.49428081144256
+  orientation -0.06152956820004006 -0.9799090481953308 -0.1897165504167658 2.558110567436905
+  position -81.02656657083078 69.308988304258 -92.70932102875548
 }
 TexturedBackground {
 }
@@ -125,7 +125,25 @@ DEF OBJECTS Group {
 DEF ORNAMENTS Group {
   children [
     Solid {
-      translation 23.51 0.05 15.74
+      translation -34.07 -0.01 6.23
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "textures/marble.jpg"
+              ]
+            }
+          }
+          geometry Plane {
+            size 60 20
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 23.84 0.05 15.74
       children [
         DEF GRASS Shape {
           appearance PBRAppearance {
