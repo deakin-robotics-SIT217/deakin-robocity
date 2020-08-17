@@ -28,7 +28,10 @@ DEF ROAD_NETWORK Group {
     StraightRoadSegment {
       translation -58 0 -8
       rotation 0 1 0 1.5707996938995747
-      name "road(4)"
+      name "road_7"
+      id "R7"
+      startJunction "R6"
+      endJunction "I1"
       lines [
         RoadLine {
           type "double"
@@ -38,7 +41,10 @@ DEF ROAD_NETWORK Group {
     StraightRoadSegment {
       translation -48 0 -8
       rotation 0 1 0 1.5707996938995747
-      name "road(3)"
+      name "road_6"
+      id "R6"
+      startJunction "R5"
+      endJunction "R7"
       lines [
         RoadLine {
           type "double"
@@ -48,7 +54,10 @@ DEF ROAD_NETWORK Group {
     StraightRoadSegment {
       translation -38 0 -8
       rotation 0 1 0 1.5707996938995747
-      name "road(2)"
+      name "road_4"
+      id "R4"
+      startJunction "R3"
+      endJunction "R5"
       lines [
         RoadLine {
           type "double"
@@ -58,11 +67,18 @@ DEF ROAD_NETWORK Group {
     Roundabout {
       translation -71 0 -8
       rotation 0 1 0 0.7853996938995746
+      id "I1"
+      connectedRoadIDs [
+        "R7"
+      ]
     }
     StraightRoadSegment {
       translation -28 0 -8
       rotation 0 1 0 1.5707996938995747
-      name "road(1)"
+      name "road_3"
+      id "R3"
+      startJunction "R1"
+      endJunction "R4"
       lines [
         RoadLine {
           type "double"
@@ -72,6 +88,10 @@ DEF ROAD_NETWORK Group {
     StraightRoadSegment {
       translation -18 0 -8
       rotation 0 1 0 1.5707996938995747
+      name "road_2"
+      id "R2"
+      startJunction "I0"
+      endJunction "R3"
       lines [
         RoadLine {
           type "double"
@@ -83,6 +103,7 @@ DEF ROAD_NETWORK Group {
       rotation 0 1 0 0.7854
       id "I0"
       connectedRoadIDs [
+        "R2"
         "R1"
         "R0"
       ]
