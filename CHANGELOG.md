@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 - Added new intersection
 - Added new street furniture (museum bus stop)
 - Added a new building (museum)
 - Added a new building (hotel)
 - Added a new road
-- Cleaned up project files and reverted to initial state
-- Added new road segment
-- Initial project creation
-=======
 -Fixed road and intersection ID's and names change start and finnish roads mathced correcttly add joining roads for intersaction and round about
 -Added changelog
 -Add skip bin to front of building
@@ -20,4 +15,3 @@
 -Cleaned up project files and reverted to initial state
 -Added new road segment
 -Initial project creation
->>>>>>> master
