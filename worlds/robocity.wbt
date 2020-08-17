@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.1514362519615809 -0.9081050902873044 -0.39040005966458996 2.4797870317225725
-  position -88.5235867400672 105.34462184726858 -89.79576946657743
+  orientation -0.0092153656788781 -0.9351079381366503 -0.354243166580849 3.1101389141259874
+  position -28.053311210683674 75.98705576488952 -75.28862411464361
 }
 TexturedBackground {
 }
@@ -25,11 +25,85 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
+    StraightRoadSegment {
+      translation -58 0 -8
+      rotation 0 1 0 1.5707996938995747
+      name "road_7"
+      id "R7"
+      startJunction "R6"
+      endJunction "I1"
+      lines [
+        RoadLine {
+          type "double"
+        }
+      ]
+    }
+    StraightRoadSegment {
+      translation -48 0 -8
+      rotation 0 1 0 1.5707996938995747
+      name "road_6"
+      id "R6"
+      startJunction "R5"
+      endJunction "R7"
+      lines [
+        RoadLine {
+          type "double"
+        }
+      ]
+    }
+    StraightRoadSegment {
+      translation -38 0 -8
+      rotation 0 1 0 1.5707996938995747
+      name "road_4"
+      id "R4"
+      startJunction "R3"
+      endJunction "R5"
+      lines [
+        RoadLine {
+          type "double"
+        }
+      ]
+    }
+    Roundabout {
+      translation -71 0 -8
+      rotation 0 1 0 0.7853996938995746
+      id "I1"
+      connectedRoadIDs [
+        "R7"
+      ]
+    }
+    StraightRoadSegment {
+      translation -28 0 -8
+      rotation 0 1 0 1.5707996938995747
+      name "road_3"
+      id "R3"
+      startJunction "R1"
+      endJunction "R4"
+      lines [
+        RoadLine {
+          type "double"
+        }
+      ]
+    }
+    StraightRoadSegment {
+      translation -18 0 -8
+      rotation 0 1 0 1.5707996938995747
+      name "road_2"
+      id "R2"
+      startJunction "I0"
+      endJunction "R3"
+      lines [
+        RoadLine {
+          type "double"
+        }
+      ]
+    }
     RoadIntersection {
       translation 0 0 -8
       rotation 0 1 0 0.7854
       id "I0"
       connectedRoadIDs [
+        "R2"
         "R1"
         "R0"
       ]
@@ -52,6 +126,10 @@ DEF ROAD_NETWORK Group {
 }
 DEF BUILDINGS Group {
   children [
+    TheThreeTowers {
+      translation -31.87 0 4.16
+      rotation 0 1 0 3.141592653589793
+    }
     CyberboticsTower {
       translation 22.2 0 16.8
     }
@@ -59,6 +137,9 @@ DEF BUILDINGS Group {
 }
 DEF OBJECTS Group {
   children [
+    TrashContainer {
+      translation -24.76 0 0
+    }
     StoneFountain {
       translation 21.2757 0 1.20971
       rotation 0 1 0 1.0472
@@ -68,7 +149,25 @@ DEF OBJECTS Group {
 DEF ORNAMENTS Group {
   children [
     Solid {
-      translation 23.51 0.05 15.74
+      translation -34.07 -0.01 6.23
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "textures/marble.jpg"
+              ]
+            }
+          }
+          geometry Plane {
+            size 60 20
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 23.84 0.05 15.74
       children [
         DEF GRASS Shape {
           appearance PBRAppearance {
