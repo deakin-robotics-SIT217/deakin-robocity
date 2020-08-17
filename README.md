@@ -22,3 +22,4 @@ Once you have cloned this project to a local repository, from within Webots sele
 ## Contributors
 
 *  Tim Wilkin
+* John Fernandez
