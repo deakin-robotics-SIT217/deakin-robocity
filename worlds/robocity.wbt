@@ -3,15 +3,15 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.0092153656788781 -0.9351079381366503 -0.354243166580849 3.1101389141259874
-  position -28.053311210683674 75.98705576488952 -75.28862411464361
+  orientation -0.14308880049172373 0.966014753619304 0.21526980968931714 1.971426134088249
+  position 269.2367391696992 52.403261696869116 -65.9044816406399
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 DEF GROUND Solid {
-  translation -0.630756 -0.1 -1.35517
+  translation 59.1099 -0.1 5.54772
   children [
     Shape {
       appearance PBRAppearance {
@@ -124,20 +124,20 @@ DEF ROAD_NETWORK Group {
       length 36
     }
     StraightRoadSegment {
-      translation -8 0 -8
-      rotation 0 1 0 -1.57
+      translation 0 0 -66
       name "road_2"
-      id "R2"
+      id "R10"
       startJunction "I0"
+      endJunction "I1"
       length 50
     }
     RoadIntersection {
-      translation -66.5 0 -8
+      translation 0 0 -74
       rotation 0 1 0 -0.7854003061004253
       name "road intersection2"
       id "I1"
       connectedRoadIDs [
-        "R2"
+        "R10"
       ]
     }
   ]
@@ -152,19 +152,19 @@ DEF BUILDINGS Group {
       translation 22.2 0 16.8
     }
     Hotel {
-      translation -11 0 3
+      translation -12.6883 0 -20.4493
     }
     Museum {
-      translation -35 0 8
-      rotation 0 1 0 -1.5707996938995747
+      translation -15.7264 1.42109e-14 -46.5038
+      rotation 0 1 0 -3.141592653589793
     }
   ]
 }
 DEF OBJECTS Group {
   children [
     BusStop {
-      translation -23 0 -2
-      rotation 0 1 0 3.141592653589793
+      translation -5.70092 1.42108e-14 -35.8532
+      rotation 0 1 0 1.5707903061004251
     }
     TrashContainer {
       translation -24.76 0 0
