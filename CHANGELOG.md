@@ -1,3 +1,4 @@
+- Added robocity_v0.2.png to media folder and updated README.md
 - Corrected road name (road_10)
 - Added new intersection
 - Added new street furniture (museum bus stop)
