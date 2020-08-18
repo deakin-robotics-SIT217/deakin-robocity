@@ -1,3 +1,4 @@
+- Corrected road name (road_10)
 - Added new intersection
 - Added new street furniture (museum bus stop)
 - Added a new building (museum)

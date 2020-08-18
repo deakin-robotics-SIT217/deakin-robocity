@@ -125,7 +125,7 @@ DEF ROAD_NETWORK Group {
     }
     StraightRoadSegment {
       translation 0 0 -66
-      name "road_2"
+      name "road_10"
       id "R10"
       startJunction "I0"
       endJunction "I1"
