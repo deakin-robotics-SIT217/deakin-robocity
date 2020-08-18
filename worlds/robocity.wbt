@@ -1,16 +1,17 @@
-#VRML_SIM R2020a utf8
+#VRML_SIM R2020b utf8
 WorldInfo {
+  coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.0092153656788781 -0.9351079381366503 -0.354243166580849 3.1101389141259874
-  position -28.053311210683674 75.98705576488952 -75.28862411464361
+  orientation -0.14308880049172373 0.966014753619304 0.21526980968931714 1.971426134088249
+  position 269.2367391696992 52.403261696869116 -65.9044816406399
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 DEF GROUND Solid {
-  translation 0 -0.1 0
+  translation 59.1099 -0.1 5.54772
   children [
     Shape {
       appearance PBRAppearance {
@@ -122,6 +123,23 @@ DEF ROAD_NETWORK Group {
       startJunction "I0"
       length 36
     }
+    StraightRoadSegment {
+      translation 0 0 -66
+      name "road_10"
+      id "R10"
+      startJunction "I0"
+      endJunction "I1"
+      length 50
+    }
+    RoadIntersection {
+      translation 0 0 -74
+      rotation 0 1 0 -0.7854003061004253
+      name "road intersection2"
+      id "I1"
+      connectedRoadIDs [
+        "R10"
+      ]
+    }
   ]
 }
 DEF BUILDINGS Group {
@@ -133,10 +151,21 @@ DEF BUILDINGS Group {
     CyberboticsTower {
       translation 22.2 0 16.8
     }
+    Hotel {
+      translation -12.6883 0 -20.4493
+    }
+    Museum {
+      translation -15.7264 1.42109e-14 -46.5038
+      rotation 0 1 0 -3.141592653589793
+    }
   ]
 }
 DEF OBJECTS Group {
   children [
+    BusStop {
+      translation -5.70092 1.42108e-14 -35.8532
+      rotation 0 1 0 1.5707903061004251
+    }
     TrashContainer {
       translation -24.76 0 0
     }

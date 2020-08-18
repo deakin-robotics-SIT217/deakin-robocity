@@ -1,3 +1,10 @@
+- Added robocity_v0.2.png to media folder and updated README.md
+- Corrected road name (road_10)
+- Added new intersection
+- Added new street furniture (museum bus stop)
+- Added a new building (museum)
+- Added a new building (hotel)
+- Added a new road
 -Fixed road and intersection ID's and names change start and finnish roads mathced correcttly add joining roads for intersaction and round about
 -Added changelog
 -Add skip bin to front of building
