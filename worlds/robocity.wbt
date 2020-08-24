@@ -2,15 +2,15 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.0092153656788781 -0.9351079381366503 -0.354243166580849 3.1101389141259874
-  position -28.053311210683674 75.98705576488952 -75.28862411464361
+  orientation -0.01772171076819088 0.9401271288064753 0.3403629278425334 3.0258698051385617
+  position -46.8609968991429 255.7017394206005 -371.0797926116318
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 DEF GROUND Solid {
-  translation 0 -0.1 0
+  translation 59.1099 -0.1 5.54772
   children [
     Shape {
       appearance PBRAppearance {
@@ -25,6 +25,13 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
+    CurvedRoadSegment {
+      translation 44 0 -18
+    }
+    StraightRoadSegment {
+      translation 54 0 -28
+      name "road(1)"
+    }
     StraightRoadSegment {
       translation -58 0 -8
       rotation 0 1 0 1.5707996938995747
@@ -122,10 +129,30 @@ DEF ROAD_NETWORK Group {
       startJunction "I0"
       length 36
     }
+    StraightRoadSegment {
+      translation 0 0 -66
+      name "road_10"
+      id "R10"
+      startJunction "I0"
+      endJunction "I1"
+      length 50
+    }
+    RoadIntersection {
+      translation 0 0 -74
+      rotation 0 1 0 -0.7854003061004253
+      name "road intersection2"
+      id "I1"
+      connectedRoadIDs [
+        "R10"
+      ]
+    }
   ]
 }
 DEF BUILDINGS Group {
   children [
+    Auditorium {
+      translation 28 0 -30
+    }
     TheThreeTowers {
       translation -31.87 0 4.16
       rotation 0 1 0 3.141592653589793
@@ -133,10 +160,25 @@ DEF BUILDINGS Group {
     CyberboticsTower {
       translation 22.2 0 16.8
     }
+    Hotel {
+      translation -12.6883 0 -20.4493
+    }
+    Museum {
+      translation -15.7264 1.42109e-14 -46.5038
+      rotation 0 1 0 -3.141592653589793
+    }
   ]
 }
 DEF OBJECTS Group {
   children [
+    PublicToilet {
+      translation -29 0 -2
+      rotation 0 1 0 1.57
+    }
+    BusStop {
+      translation -5.70092 1.42108e-14 -35.8532
+      rotation 0 1 0 1.5707903061004251
+    }
     TrashContainer {
       translation -24.76 0 0
     }
