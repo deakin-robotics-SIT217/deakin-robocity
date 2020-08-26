@@ -27,10 +27,15 @@ DEF ROAD_NETWORK Group {
   children [
     CurvedRoadSegment {
       translation 44 0 -18
+      name "road_9"
+      id "R9"
+      startJunction "R1"
     }
     StraightRoadSegment {
       translation 54 0 -28
-      name "road(1)"
+      name "road_8"
+      id "R8"
+      startJunction "R9"
     }
     StraightRoadSegment {
       translation -58 0 -8
@@ -127,6 +132,7 @@ DEF ROAD_NETWORK Group {
       name "road_1"
       id "R1"
       startJunction "I0"
+      endJunction "R9"
       length 36
     }
     StraightRoadSegment {
