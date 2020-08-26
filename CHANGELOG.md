@@ -1,3 +1,4 @@
+- Added Changelog
 - Added an auditorium
 - Added Changelog
 - Merge pull request #2 from j-h-fern/j-h-fern
