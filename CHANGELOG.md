@@ -1,10 +1,17 @@
-- Added robocity_v0.2.png to media folder and updated README.md
-- Corrected road name (road_10)
-- Added new intersection
-- Added new street furniture (museum bus stop)
-- Added a new building (museum)
-- Added a new building (hotel)
-- Added a new road
+-Added a new building (Carwash)
+-Update collaborators list
+-Merge pull request #3 from bendavey/bendavey
+-Updated CHANGELOG.md
+-Add screenshot and update README.md
+-Correct road name (road_10)
+-Rearrage objects to accomodate changes
+-Merge branch with changes
+-Merge branch 'master' into bendavey
+-Merge branch 'master' into bendavey
+-Merge pull request #2 from j-h-fern/j-h-fern
+-updated README with new photo
+-added new screen shot
+-updated change log
 -Fixed road and intersection ID's and names change start and finnish roads mathced correcttly add joining roads for intersaction and round about
 -Added changelog
 -Add skip bin to front of building
@@ -14,6 +21,12 @@
 -changed to doublt lines
 -Added a roundabout section
 -Add 2 straight road sections
+-Updated changelog
+-Added new intersection
+-Added new street furniture (museum bus stop)
+-Added a new building (museum)
+-Added a new building (hotel)
+-Added a new road
 -Cleaned up project files and reverted to initial state
 -Added new road segment
 -Initial project creation
