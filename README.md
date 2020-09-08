@@ -2,7 +2,7 @@
 
 A virtual city for simulation within Webots, created collaboratively by students enrolled in SIT217 Software Engineering 1: Robotics Project, at Deakin University.
 
-![Deakin Robocity](media/robocity_v0.3.png)
+![Deakin Robocity](media/robocity_v0.4.png)
 
 ## Table of Contents
 * [General Info](#general-info)
