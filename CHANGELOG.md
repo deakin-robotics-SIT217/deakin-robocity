@@ -1,4 +1,4 @@
-- new building, roads, street furniture
+- Added a new building (church)
 - Merge branch 'kinshuk9449'
 - Cleaned up merge conflicts and file names
 - Updated new simulation screenshot

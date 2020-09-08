@@ -1,10 +1,9 @@
-#VRML_SIM R2020b utf8
+#VRML_SIM R2020a utf8
 WorldInfo {
-  coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.1796338177993262 0.8777484001673532 0.4441727563758167 3.8101267734529762
-  position -131.49076737535663 312.7971297170105 -231.32499389052944
+  orientation 0.15813188079115392 0.9460611310621426 0.28277666907096755 4.02164450800098
+  position -148.27101803121673 112.9292947755304 -86.5456461676544
 }
 TexturedBackground {
 }
@@ -26,17 +25,6 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
-    StraightRoadSegment {
-      translation -71 0 25
-      name "road(2)"
-    }
-    StraightRoadSegment {
-      translation -71 0 15
-      name "road(1)"
-    }
-    StraightRoadSegment {
-      translation -71 0 5
-    }
     CurvedRoadSegment {
       translation 44 0 -18
       name "road_9"
@@ -97,6 +85,13 @@ DEF ROAD_NETWORK Group {
       ]
     }
     StraightRoadSegment {
+      translation -71 0 -31
+    }
+    StraightRoadSegment {
+      translation -71 0 -41
+      name "road(1)"
+    }
+    StraightRoadSegment {
       translation -28 0 -8
       rotation 0 1 0 1.5707996938995747
       name "road_3"
@@ -108,6 +103,10 @@ DEF ROAD_NETWORK Group {
           type "double"
         }
       ]
+    }
+    StraightRoadSegment {
+      translation -71 0 -51
+      name "road(2)"
     }
     StraightRoadSegment {
       translation -18 0 -8
@@ -168,8 +167,9 @@ DEF ROAD_NETWORK Group {
 }
 DEF BUILDINGS Group {
   children [
-    BuildingUnderConstruction {
-      translation -51 0 25
+    Warehouse {
+      translation -60.18 0 -32.62
+      rotation 0 1 0 1.5708
     }
     Auditorium {
       translation 28 0 -30
@@ -184,13 +184,16 @@ DEF BUILDINGS Group {
     Hotel {
       translation -12.6883 0 -20.4493
     }
+    Museum {
+      translation -15.7264 1.42109e-14 -46.5038
+      rotation 0 1 0 -3.141592653589793
+    }
   ]
 }
 DEF OBJECTS Group {
   children [
-    WorkTrashContainer {
-      translation -50 0 15
-      rotation 0 -1 0 1.5707996938995747
+    FireHydrant {
+      translation -65.91 0 -15.78
     }
     PublicToilet {
       translation -29 0 -2
