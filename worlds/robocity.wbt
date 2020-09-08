@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation -0.01772171076819088 0.9401271288064753 0.3403629278425334 3.0258698051385617
-  position -46.8609968991429 255.7017394206005 -371.0797926116318
+  orientation 0.1796338177993262 0.8777484001673532 0.4441727563758167 3.8101267734529762
+  position -131.49076737535663 312.7971297170105 -231.32499389052944
 }
 TexturedBackground {
 }
@@ -26,6 +26,17 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
+    StraightRoadSegment {
+      translation -71 0 25
+      name "road(2)"
+    }
+    StraightRoadSegment {
+      translation -71 0 15
+      name "road(1)"
+    }
+    StraightRoadSegment {
+      translation -71 0 5
+    }
     CurvedRoadSegment {
       translation 44 0 -18
       name "road_9"
@@ -157,6 +168,9 @@ DEF ROAD_NETWORK Group {
 }
 DEF BUILDINGS Group {
   children [
+    BuildingUnderConstruction {
+      translation -51 0 25
+    }
     Auditorium {
       translation 28 0 -30
     }
@@ -170,14 +184,14 @@ DEF BUILDINGS Group {
     Hotel {
       translation -12.6883 0 -20.4493
     }
-    Museum {
-      translation -15.7264 1.42109e-14 -46.5038
-      rotation 0 1 0 -3.141592653589793
-    }
   ]
 }
 DEF OBJECTS Group {
   children [
+    WorkTrashContainer {
+      translation -50 0 15
+      rotation 0 -1 0 1.5707996938995747
+    }
     PublicToilet {
       translation -29 0 -2
       rotation 0 1 0 1.57
