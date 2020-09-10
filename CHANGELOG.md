@@ -1,4 +1,12 @@
+- Added a new building (Big Glass Tower)
+- updated master from yiannisd contributions
+- Merge branch 'yiannisd'
+- screenshot update
+- Updated screenshot + readme file
+- Merge branch 'master' into yiannisd
+- update
 - new building, roads, street furniture
+- deleted building
 - Merge branch 'kinshuk9449'
 - Cleaned up merge conflicts and file names
 - Updated new simulation screenshot
@@ -7,6 +15,7 @@
 - Added Changelog
 - Added an auditorium
 - Added Changelog
+- Added new buildings, roads and street-furniture
 - Update collaborators list
 - Merge pull request #3 from bendavey/bendavey
 - Updated CHANGELOG.md
