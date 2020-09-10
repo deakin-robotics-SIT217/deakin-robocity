@@ -167,8 +167,8 @@ DEF ROAD_NETWORK Group {
     StraightRoadSegment {
       translation 0 0 -162
       name "Straight Road"
-      id "rS"
-      startJunction "I1"
+      id "R11"
+      startJunction "R10"
       length 80
       appearance Asphalt {
         textureTransform TextureTransform {
