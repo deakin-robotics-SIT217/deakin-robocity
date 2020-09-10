@@ -1,3 +1,5 @@
+- Added a new road (Straight road segment R11)
+- Added CHANGELOG
 - Added a new building (Big Glass Tower)
 - updated master from yiannisd contributions
 - Merge branch 'yiannisd'
