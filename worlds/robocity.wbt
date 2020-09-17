@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.1796338177993262 0.8777484001673532 0.4441727563758167 3.8101267734529762
-  position -131.49076737535663 312.7971297170105 -231.32499389052944
+  orientation 0.030967337392314262 -0.9483856391472046 -0.31560371270658233 3.346486210113871
+  position 15.841455664559625 256.59768027006703 -375.33410598168274
 }
 TexturedBackground {
 }
@@ -164,6 +164,21 @@ DEF ROAD_NETWORK Group {
         "R10"
       ]
     }
+    StraightRoadSegment {
+      translation 0 0 -162
+      name "Straight Road"
+      id "R11"
+      startJunction "R10"
+      length 80
+      appearance Asphalt {
+        textureTransform TextureTransform {
+        }
+      }
+      pavementAppearance Pavement {
+        textureTransform TextureTransform {
+        }
+      }
+    }
   ]
 }
 DEF BUILDINGS Group {
@@ -183,6 +198,10 @@ DEF BUILDINGS Group {
     }
     Hotel {
       translation -12.6883 0 -20.4493
+    }
+    BigGlassTower {
+      translation -81.6491 -3 6.09439
+      rotation 0.707150673141896 -0.7070628865065421 0 0
     }
   ]
 }
@@ -206,6 +225,9 @@ DEF OBJECTS Group {
     StoneFountain {
       translation 21.2757 0 1.20971
       rotation 0 1 0 1.0472
+    }
+    Bench {
+      translation -71 0 -8
     }
   ]
 }
