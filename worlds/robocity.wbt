@@ -3,8 +3,13 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
+<<<<<<< HEAD
   orientation -0.052278211093524915 0.9765924622381198 0.20864839166537422 2.6323428610096498
   position 146.89527987519628 165.50695011671027 -299.84102418318713
+=======
+  orientation 0.1796338177993262 0.8777484001673532 0.4441727563758167 3.8101267734529762
+  position -131.49076737535663 312.7971297170105 -231.32499389052944
+>>>>>>> master
 }
 TexturedBackground {
 }
@@ -26,6 +31,7 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
+<<<<<<< HEAD
     CrashBarrier {
       translation 52 0 -40
     }
@@ -34,6 +40,18 @@ DEF ROAD_NETWORK Group {
       name "road_11"
       id "R11"
       startJunction "R10"
+=======
+    StraightRoadSegment {
+      translation -71 0 25
+      name "road(2)"
+    }
+    StraightRoadSegment {
+      translation -71 0 15
+      name "road(1)"
+    }
+    StraightRoadSegment {
+      translation -71 0 5
+>>>>>>> master
     }
     CurvedRoadSegment {
       translation 44 0 -18
@@ -167,8 +185,13 @@ DEF ROAD_NETWORK Group {
 }
 DEF BUILDINGS Group {
   children [
+<<<<<<< HEAD
     Carwash {
       translation 13.7518 0 -55.281
+=======
+    BuildingUnderConstruction {
+      translation -51 0 25
+>>>>>>> master
     }
     Auditorium {
       translation 28 0 -30
@@ -183,16 +206,18 @@ DEF BUILDINGS Group {
     Hotel {
       translation -12.6883 0 -20.4493
     }
-    Museum {
-      translation -15.7264 1.42109e-14 -46.5038
-      rotation 0 1 0 -3.141592653589793
-    }
   ]
 }
 DEF OBJECTS Group {
   children [
+<<<<<<< HEAD
     Mailbox {
       translation 4.70657 0 -61.7402
+=======
+    WorkTrashContainer {
+      translation -50 0 15
+      rotation 0 -1 0 1.5707996938995747
+>>>>>>> master
     }
     PublicToilet {
       translation -29 0 -2

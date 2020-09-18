@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 - Added Road, road barrier, car wash and mailbox
+=======
+- new building, roads, street furniture
+>>>>>>> master
 - Merge branch 'kinshuk9449'
 - Cleaned up merge conflicts and file names
 - Updated new simulation screenshot
