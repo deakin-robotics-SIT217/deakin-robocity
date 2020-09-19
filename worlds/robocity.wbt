@@ -3,6 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
+  orientation -0.052278211093524915 0.9765924622381198 0.20864839166537422 2.6323428610096498
+  position 146.89527987519628 165.50695011671027 -299.84102418318713
   orientation 0.1796338177993262 0.8777484001673532 0.4441727563758167 3.8101267734529762
   position -131.49076737535663 312.7971297170105 -231.32499389052944
 }
@@ -26,6 +28,14 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
+    CrashBarrier {
+      translation 52 0 -40
+    }
+    StraightRoadSegment {
+      translation 54 0 -38
+      name "road_11"
+      id "R11"
+      startJunction "R10"
     StraightRoadSegment {
       translation -71 0 25
       name "road(2)"
@@ -48,6 +58,7 @@ DEF ROAD_NETWORK Group {
       name "road_8"
       id "R8"
       startJunction "R9"
+      endJunction "R11"
     }
     StraightRoadSegment {
       translation -58 0 -8
@@ -168,6 +179,8 @@ DEF ROAD_NETWORK Group {
 }
 DEF BUILDINGS Group {
   children [
+    Carwash {
+      translation 13.7518 0 -55.281
     BuildingUnderConstruction {
       translation -51 0 25
     }
@@ -188,6 +201,8 @@ DEF BUILDINGS Group {
 }
 DEF OBJECTS Group {
   children [
+    Mailbox {
+      translation 4.70657 0 -61.7402
     WorkTrashContainer {
       translation -50 0 15
       rotation 0 -1 0 1.5707996938995747

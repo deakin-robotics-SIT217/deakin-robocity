@@ -25,4 +25,8 @@ Once you have cloned this project to a local repository, from within Webots sele
 *  John Fernandez
 *  Ben Davey
 *  Jain Kinshuk
+<<<<<<< HEAD
+
+=======
 *  Ioannis Doulgerakis
+>>>>>>> master
