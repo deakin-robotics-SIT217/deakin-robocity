@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.10144621627092601 0.9224383742247437 0.3725803416203334 3.617423120590675
-  position -121.37572683884005 275.202249821167 -306.1126640337036
+  orientation -0.007795908362580166 0.8416816834074156 0.5399177415396365 3.1060070978979732
+  position 17.129955791299622 336.30459195839893 -173.81607416081667
 }
 TexturedBackground {
 }
@@ -25,6 +25,18 @@ DEF GROUND Solid {
 }
 DEF ROAD_NETWORK Group {
   children [
+    StraightRoadSegment {
+      translation -71 0 -51
+      name "road(5)"
+    }
+    StraightRoadSegment {
+      translation -71 0 -41
+      name "road(3)"
+    }
+    StraightRoadSegment {
+      translation -71 0 -31
+      name "road(4)"
+    }
     StraightRoadSegment {
       translation -71 0 25
       name "road(2)"
@@ -167,6 +179,9 @@ DEF ROAD_NETWORK Group {
 }
 DEF BUILDINGS Group {
   children [
+    BungalowStyleHouse {
+      translation -60 0 -23
+    }
     BuildingUnderConstruction {
       translation -51 0 25
     }
@@ -187,6 +202,9 @@ DEF BUILDINGS Group {
 }
 DEF OBJECTS Group {
   children [
+    Atm {
+      translation -49 0 -14
+    }
     WorkTrashContainer {
       translation -50 0 15
       rotation 0 -1 0 1.5707996938995747
