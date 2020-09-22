@@ -1,9 +1,10 @@
-#VRML_SIM R2020a utf8
+#VRML_SIM R2020b utf8
 WorldInfo {
+  coordinateSystem "NUE"
 }
 Viewpoint {
   orientation 0.10144621627092601 0.9224383742247437 0.3725803416203334 3.617423120590675
-  position -121.37572683884005 275.202249821167 -306.1126640337036
+  position -128.0619417509577 278.2445170785591 -298.98924566664755
 }
 TexturedBackground {
 }
@@ -164,6 +165,16 @@ DEF ROAD_NETWORK Group {
       ]
     }
   ]
+}
+StraightRoadSegment {
+  translation -93 0 -8
+  rotation 0 1 0 -1.5708003061004252
+  name "road(4)"
+}
+StraightRoadSegment {
+  translation -83 0 -8
+  rotation 0 1 0 -1.5707996938995747
+  name "road(3)"
 }
 DEF BUILDINGS Group {
   children [
