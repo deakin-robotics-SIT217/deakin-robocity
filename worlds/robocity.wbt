@@ -3,15 +3,15 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.09553481109053444 0.9229627117503888 0.3728443811944394 3.5897420143619736
-  position -124.25201564193056 278.2445170785591 -303.51281219593744
+  orientation 0.04495983553170282 0.9279740247266424 0.3699227252029793 3.3497640500520056
+  position -61.72767371752473 186.44016829789564 -225.9729920447719
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 DEF GROUND Solid {
-  translation 59.1099 -0.1 5.54772
+  translation 55.949 -0.1 -1.31147
   children [
     Shape {
       appearance PBRAppearance {
@@ -201,6 +201,9 @@ LargeResidentialTower {
 }
 DEF OBJECTS Group {
   children [
+    EmergencyPhone {
+      translation -78 0 0
+    }
     WorkTrashContainer {
       translation -50 0 15
       rotation 0 -1 0 1.5707996938995747
