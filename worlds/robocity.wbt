@@ -1,16 +1,17 @@
-#VRML_SIM R2020a utf8
+#VRML_SIM R2020b utf8
 WorldInfo {
+  coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.10144621627092601 0.9224383742247437 0.3725803416203334 3.617423120590675
-  position -121.37572683884005 275.202249821167 -306.1126640337036
+  orientation 0.04495983553170282 0.9279740247266424 0.3699227252029793 3.3497640500520056
+  position -61.72767371752473 186.44016829789564 -225.9729920447719
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 DEF GROUND Solid {
-  translation 59.1099 -0.1 5.54772
+  translation 55.949 -0.1 -1.31147
   children [
     Shape {
       appearance PBRAppearance {
@@ -165,6 +166,16 @@ DEF ROAD_NETWORK Group {
     }
   ]
 }
+StraightRoadSegment {
+  translation -93 0 -8
+  rotation 0 1 0 -1.5708003061004252
+  name "road(4)"
+}
+StraightRoadSegment {
+  translation -83 0 -8
+  rotation 0 1 0 -1.5707996938995747
+  name "road(3)"
+}
 DEF BUILDINGS Group {
   children [
     BuildingUnderConstruction {
@@ -185,8 +196,14 @@ DEF BUILDINGS Group {
     }
   ]
 }
+LargeResidentialTower {
+  translation -90 0 3
+}
 DEF OBJECTS Group {
   children [
+    EmergencyPhone {
+      translation -78 0 0
+    }
     WorkTrashContainer {
       translation -50 0 15
       rotation 0 -1 0 1.5707996938995747
