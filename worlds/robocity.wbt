@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.10144621627092601 0.9224383742247437 0.3725803416203334 3.617423120590675
-  position -128.0619417509577 278.2445170785591 -298.98924566664755
+  orientation 0.09553481109053444 0.9229627117503888 0.3728443811944394 3.5897420143619736
+  position -124.25201564193056 278.2445170785591 -303.51281219593744
 }
 TexturedBackground {
 }
@@ -195,6 +195,9 @@ DEF BUILDINGS Group {
       translation -12.6883 0 -20.4493
     }
   ]
+}
+LargeResidentialTower {
+  translation -90 0 3
 }
 DEF OBJECTS Group {
   children [
