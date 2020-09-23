@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.0810559938904946 0.8766758485412208 0.4742039460389955 2.831249267530426
-  position 295.1198761016922 738.262455965845 -390.9285057769845
+  orientation 0.38302146234377554 0.8444975774718412 0.37432392526824576 4.55070415505521
+  position -599.8164105958905 683.2329166758616 -290.46271926562684
 }
 TexturedBackground {
 }
@@ -163,6 +163,14 @@ DEF ROAD_NETWORK Group {
         "R10"
       ]
     }
+    StraightRoadSegment {
+      translation 0 0 -133
+      name "road_10(1)"
+      id "R10"
+      startJunction "I0"
+      endJunction "I1"
+      length 50
+    }
   ]
 }
 DEF BUILDINGS Group {
@@ -182,6 +190,9 @@ DEF BUILDINGS Group {
     }
     Hotel {
       translation -12.6883 0 -20.4493
+    }
+    BigGlassTower {
+      translation -45.64 0 -20.04
     }
   ]
 }
@@ -205,6 +216,9 @@ DEF OBJECTS Group {
     StoneFountain {
       translation 21.2757 0 1.20971
       rotation 0 1 0 1.0472
+    }
+    Mailbox {
+      translation -60.3 0 -17.05
     }
   ]
 }
@@ -245,7 +259,7 @@ DEF ORNAMENTS Group {
   ]
 }
 DEF DEF_VEHICLE Robot {
-  translation -56.9228 36.9341 -65.3577
+  translation -56.922799999999995 -1718152.8034744211 -65.3577
   rotation 0 1 0 0.785388
   scale 65 65 65
   children [
@@ -572,4 +586,5 @@ DEF DEF_VEHICLE Robot {
   controller "ardupilot_SITL_QUAD"
   controllerArgs "-p 5598  -df 0.01"
   customData "1"
+  linearVelocity 0 -5805.950399998408 0
 }

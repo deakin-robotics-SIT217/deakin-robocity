@@ -1,3 +1,4 @@
+- Added a Glass Tower, Straight road, Mailbox
 - Added a new road (straight)
 - Added a Robot (QuadCopter)
 - Deleted a three group buildings!
