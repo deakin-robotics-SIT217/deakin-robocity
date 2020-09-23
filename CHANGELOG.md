@@ -1,3 +1,4 @@
+- Added a new road (straight)
 - Added a Robot (QuadCopter)
 - Deleted a three group buildings!
 - Merge pull request #7 from deakin-robotics-SIT217/yiannisd
