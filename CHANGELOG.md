@@ -1,53 +1,55 @@
-- Added a new road (straight)
-- Added a Robot (QuadCopter)
-- Deleted a three group buildings!
-- Merge pull request #7 from deakin-robotics-SIT217/yiannisd
-- updated master from yiannisd contributions
-- Merge branch 'yiannisd'
-- corrected error readme file
-- screenshot update
-- Updated screenshot + readme file
-- Merge branch 'master' into yiannisd
-- update
-- new building, roads, street furniture
-- deleted building
-- Merge branch 'kinshuk9449'
-- Cleaned up merge conflicts and file names
-- Updated new simulation screenshot
-- Updated start junction and end junction
-- Changed road id and name
-- Added Changelog
-- Added an auditorium
-- Added Changelog
-- Added new buildings, roads and street-furniture
-- Update collaborators list
-- Merge pull request #3 from bendavey/bendavey
-- Updated CHANGELOG.md
-- Add screenshot and update README.md
-- Correct road name (road_10)
-- Rearrage objects to accomodate changes
-- Merge branch with changes
-- Merge branch 'master' into bendavey
-- Merge branch 'master' into bendavey
-- Merge pull request #2 from j-h-fern/j-h-fern
-- updated README with new photo
-- added new screen shot
-- updated change log
-- Fixed road and intersection ID's and names change start and finnish roads mathced correcttly add joining roads for intersaction and round about
-- Added changelog
-- Add skip bin to front of building
-- Add three tower floor area
-- added 2 more straight section to match buuilding widsth moved roundabout down
-- added three tower block
-- changed to doublt lines
-- Added a roundabout section
-- Add 2 straight road sections
-- Updated changelog
-- Added new intersection
-- Added new street furniture (museum bus stop)
-- Added a new building (museum)
-- Added a new building (hotel)
-- Added a new road
-- Cleaned up project files and reverted to initial state
-- Added new road segment
-- Initial project creation
+-Merge pull request #14 from deakin-robotics-SIT217/TheCollo67
+-Added a Glass Tower, Straight road, Mailbox
+-Added a new road (straight)
+-Added a Robot (QuadCopter)
+-Deleted a three group buildings!
+-Merge pull request #7 from deakin-robotics-SIT217/yiannisd
+-updated master from yiannisd contributions
+-Merge branch 'yiannisd'
+-corrected error readme file
+-screenshot update
+-Updated screenshot + readme file
+-Merge branch 'master' into yiannisd
+-update
+-new building, roads, street furniture
+-deleted building
+-Merge branch 'kinshuk9449'
+-Cleaned up merge conflicts and file names
+-Updated new simulation screenshot
+-Updated start junction and end junction
+-Changed road id and name
+-Added Changelog
+-Added an auditorium
+-Added Changelog
+-Added new buildings, roads and street-furniture
+-Update collaborators list
+-Merge pull request #3 from bendavey/bendavey
+-Updated CHANGELOG.md
+-Add screenshot and update README.md
+-Correct road name (road_10)
+-Rearrage objects to accomodate changes
+-Merge branch with changes
+-Merge branch 'master' into bendavey
+-Merge branch 'master' into bendavey
+-Merge pull request #2 from j-h-fern/j-h-fern
+-updated README with new photo
+-added new screen shot
+-updated change log
+-Fixed road and intersection ID's and names change start and finnish roads mathced correcttly add joining roads for intersaction and round about
+-Added changelog
+-Add skip bin to front of building
+-Add three tower floor area
+-added 2 more straight section to match buuilding widsth moved roundabout down
+-added three tower block
+-changed to doublt lines
+-Added a roundabout section
+-Add 2 straight road sections
+-Updated changelog
+-Added new intersection
+-Added new street furniture (museum bus stop)
+-Added a new building (museum)
+-Added a new building (hotel)
+-Added a new road
+-Cleaned up project files and reverted to initial state
+-Added new road segment
+-Initial project creation
